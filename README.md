@@ -50,7 +50,7 @@ curl -fsSL https://raw.githubusercontent.com/mozhou580-lgtm/vibe-coding-standard
 
 ```bash
 unzip "Vibe Coding 规范化操作_完整安装包.zip" -d /tmp/vibe-coding-install
-cd "/tmp/vibe-coding-install/Vibe Coding 规范化操作"
+cd "/tmp/vibe-coding-install/vibe-coding-standardized-operation"
 bash ./install.sh codex
 ```
 
@@ -70,7 +70,7 @@ bash ./install.sh both
 
 ```powershell
 Expand-Archive .\Vibe Coding 规范化操作_完整安装包.zip -DestinationPath $env:TEMP\vibe-coding-install
-Set-Location "$env:TEMP\vibe-coding-install\Vibe Coding 规范化操作"
+Set-Location "$env:TEMP\vibe-coding-install\vibe-coding-standardized-operation"
 .\install.ps1 -Target Codex
 ```
 
