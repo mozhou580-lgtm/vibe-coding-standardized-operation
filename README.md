@@ -40,6 +40,12 @@ Vibe Coding：按最小闭环开发、演示、修正
 
 安装包解压后，进入 `Vibe Coding 规范化操作/` 目录。脚本只安装 `prd-master`、`design-master`、`tdd-master`，会先把已有版本移动到备份目录，不覆盖全局规则。
 
+最短在线安装（Codex）：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/mozhou580-lgtm/vibe-coding-standardized-operation/main/install-online.sh | bash -s -- codex
+```
+
 ### macOS / Linux：Codex
 
 ```bash
@@ -72,7 +78,7 @@ Set-Location "$env:TEMP\vibe-coding-install\Vibe Coding 规范化操作"
 
 ### Word Buddy / Cloud Agent
 
-这类工具通常不需要写入本机 Skill 目录。直接上传 `vibe-coding-skill-package.zip` 或解压后的 `skills/` 目录，并发送：
+这类工具通常不需要写入本机 Skill 目录。直接上传 `Vibe Coding 规范化操作_完整安装包.zip` 或解压后的 `skills/` 目录，并发送：
 
 ```text
 请先读取 claude.md，再按 PRD → Design → TDD 使用三个 SKILL.md；不要把 Git 作为当前主流程。
